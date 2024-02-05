@@ -73,12 +73,15 @@
   font-weight: 500;
   }
 
+.button:hover {
+    color: #5e636b;
+  }
+
 
 .email {
   background-color: white;
   color: #374151;
 }
-
 
 .linkedin {
   background-color: #5093E2;
@@ -91,12 +94,7 @@
 }
 
 
-
-
-
-
 .description{
-  /* border:1px solid forestgreen; */
   margin: 22px 30px;
   text-align: justify;
 }
@@ -127,6 +125,8 @@
 .icon {
   font-size: 30px;
   color: #918E9B;
+}
 
-
+.icon:hover {
+  color: #5e636b;
 }
