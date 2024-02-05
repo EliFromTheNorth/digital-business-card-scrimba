@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  background-color: #23252C;
+}
+
+
+.main-content {
+  width: 317px;
+  height: 780px;
+  background-color: #1A1B21;
+  border-radius: 7px;
+  margin: 0 auto;
+  color: white;
+}
+
+
+.profile-picture{
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+
+
+}
+
+
+.introduction{
+  margin: 0 30px;
+}
+
+
+.introduction > h1 {
+  font-size: 22px;
+  }
+
+
+.introduction > h2 {
+  font-size: 15px;;
+  color: #F3BF99;
+  margin: 0;
+}
+
+
+.introduction > a {
+  font-size: 11px;
+  color: #efddcf;
+  text-decoration: none;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;;
+}
+
+
+.button {
+  width: 115px;
+  height: 34px;
+  margin: 0 auto;
+  border-radius: 7px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  }
+
+
+.email {
+  background-color: white;
+  color: #374151;
+}
+
+
+.linkedin {
+  background-color: #5093E2;
+  color: white;
+}
+
+
+.contact-icon {
+  margin-right: 5px;
+}
+
+
+
+
+
+
+.description{
+  /* border:1px solid forestgreen; */
+  margin: 22px 30px;
+  text-align: justify;
+}
+
+
+.description > h1 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+.description > p {
+  font-size: 11px;
+}
+
+
+.social-media{
+  margin-top: 15px;
+  background-color: #161619;
+  height: max-content;
+  border-radius: 0 0 7px 7px;
+  display: flex;
+  padding: 10px 15px 10px 15px;
+  justify-content: space-around;
+}
+
+
+.icon {
+  font-size: 30px;
+  color: #918E9B;
+
+
+}
